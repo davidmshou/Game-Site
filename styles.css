@@ -1,0 +1,39 @@
+body {
+  background-color: #085a00;
+  background-image: url("https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQHrDAhNqDtF7MH-yKv90pQDxit-gf9RXbxZYToSqduIcR1otLAAw");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%; }
+body > h1 {
+  color: #32302f;
+  text-align: center; }
+p {  
+  text-align: center;
+  font-size: 20px; }
+img.medium {
+  width: 200px;
+  height: 200px; }
+img.left {
+  display: block;
+  float: left;
+  margin: auto; }
+img.center {
+  display: block;
+  text-align: center;
+  margin: auto;
+  position: fixed;
+  left: 540px; }
+img.right {
+  display: block;
+  margin: auto;
+  position: fixed;
+  right: 10px; }
+section {
+  display: block;  
+  text-align: center;
+  margin: 200px;
+  clear: both; }
+section h1 {  
+  line-height: 3em; }
+ /** {
+  border: red solid 2px }*/
