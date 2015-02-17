@@ -15,18 +15,19 @@ img.medium {
   height: 200px; }
 img.left {
   display: block;
+  position: absolute;
   float: left;
   margin: auto; }
 img.center {
   display: block;
   text-align: center;
   margin: auto;
-  position: fixed;
+  position: absolute;
   left: 540px; }
 img.right {
   display: block;
   margin: auto;
-  position: fixed;
+  position: absolute;
   right: 10px; }
 section {
   display: block;  
