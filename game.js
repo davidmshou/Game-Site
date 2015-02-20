@@ -37,11 +37,11 @@ $(".medium").on("click", function () {
   console.log(dog.report());
 
   if (rabbit.position > turtle.position && rabbit.position > dog.position) {
-    $("#main h1").append(" " + rabbit.name + " wins!");
+    $("#bio").append(" " + rabbit.name + " wins!");
   } else if (turtle.position > rabbit.position && turtle.position > dog.position) {
-    $("#main h1").append(" " + turtle.name + " wins!")
+    $("#bio").append(" " + turtle.name + " wins!")
   } else {
-    $("#main h1").append(" " + dog.name + " wins!")
+    $("#bio").append(" " + dog.name + " wins!")
   }
 
   $(function () {

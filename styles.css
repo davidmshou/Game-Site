@@ -1,5 +1,5 @@
 body {
-  background-color: #085a00;
+  background-color: #69d47b;
   background-image: url("https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQHrDAhNqDtF7MH-yKv90pQDxit-gf9RXbxZYToSqduIcR1otLAAw");
   background-repeat: no-repeat;
   background-size: cover;
@@ -14,7 +14,8 @@ img.medium {
   width: 200px;
   height: 200px;
   border: solid black 2px;
-  text-align: center; }
+  text-align: center;
+  top: 10em; }
 img.left {
   display: block;
   position: absolute;
@@ -37,18 +38,24 @@ img.right {
   margin: 15em; }
 #main h1 {  
   line-height: 3em; }
-#instructions {
+#bio {  
   display: block;
   text-align: center;
-  clear: both; }
-#instructions h1 { 
-  line-height: 5em; }
+  position: relative; }
+#instructions {
+  display: block;
+  position: relative;
+  text-align: center;
+  clear: both;
+  line-height:;
+  top: 17em; }
 #bugs {
+  margin: auto;
   display: block;
   position: absolute;
   left: 1em;
   width: 200px;
-  top: 58%;
+  top: 25em;
   border-radius: 50%;
   border: solid black .1em;
   background-color: beige; }
@@ -58,17 +65,18 @@ img.right {
   left: 1em; 
   width: 200px;
   height: 11em;
-  top: 70%;
+  top: 30em;
   border: solid black .1em;
   background-color: beige; }
-#cecil {  
+#cecil {
+  margin: auto;  
   display: block;
   text-align: center;
   margin: auto;
   position: absolute;
   left: 42%;
   width: 200px;
-  top: 58%;
+  top: 25em;
   border: solid black .1em;
   background-color: beige;
   border-radius: 50%; }
@@ -79,7 +87,8 @@ img.right {
   left: 42%;
   width: 200px;
   height: 11em;
-  top: 70%;
+  top: 30em;
+  margin: auto;
   border: solid black .1em;
   background-color: beige; }
 #bowser { 
@@ -88,7 +97,7 @@ img.right {
   position: absolute;
   right: 1em;
   width: 200px;
-  top: 58%;
+  top: 25em;
   border-radius: 50%;
   background-color: beige;
   border: solid black .1em; }
@@ -98,7 +107,7 @@ img.right {
   right: 1em;
   width: 200px;
   height: 11em;
-  top: 70%;
+  top: 30em;
   border: solid black .1em;
   background-color: beige; }
 
