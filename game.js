@@ -37,17 +37,16 @@ $(".medium").on("click", function () {
   console.log(dog.report());
 
   if (rabbit.position > turtle.position && rabbit.position > dog.position) {
-    $("#bio").append(" " + rabbit.name + " wins!");
+    $("#bio").html(" " + rabbit.name + " wins!");
   } else if (turtle.position > rabbit.position && turtle.position > dog.position) {
-    $("#bio").append(" " + turtle.name + " wins!")
+    $("#bio").html(" " + turtle.name + " wins!");
   } else {
-    $("#bio").append(" " + dog.name + " wins!")
+    $("#bio").html(" " + dog.name + " wins!");
   }
 
   $(function () {
-    $("#bugs").append(rabbit.report());
-    $("#cecil").append(turtle.report());
-    $("#bowser").append(dog.report());
+    $("#bugstext").html(rabbit.report());
+    $("#ceciltext").html(turtle.report());
+    $("#bowsertext").html(dog.report());
   });
 });
-  

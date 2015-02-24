@@ -54,11 +54,18 @@ img.right {
   display: block;
   position: absolute;
   left: 1em;
-  width: 200px;
+  width: 12.5em;
+  height: 3.8em;
   top: 25em;
   border-radius: 50%;
   border: solid black .1em;
   background-color: beige; }
+#bugstext {
+  font-size: 1.5em; }
+#ceciltext {  
+  font-size: 1.5em; }
+#bowsertext { 
+  font-size: 1.5em; }
 #bugsbio {
   display: block;
   position: absolute;
@@ -75,7 +82,8 @@ img.right {
   margin: auto;
   position: absolute;
   left: 42%;
-  width: 200px;
+  height: 3.8em;
+  width: 12.5em;
   top: 25em;
   border: solid black .1em;
   background-color: beige;
@@ -96,7 +104,8 @@ img.right {
   margin: auto;
   position: absolute;
   right: 1em;
-  width: 200px;
+  width: 12.5em;
+  height: 3.8em;
   top: 25em;
   border-radius: 50%;
   background-color: beige;
